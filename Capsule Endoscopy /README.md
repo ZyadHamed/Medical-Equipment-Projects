@@ -33,12 +33,22 @@ A window will appear. Click the button to select a video file, and the classific
 
 The model used is `EfficientNet-B0`, fine-tuned to classify frames into:
 
-- `AVM`
-  
- ![Image](https://github.com/user-attachments/assets/0a3f5803-fd0b-4f00-8676-31643534d25e)
-- `Normal`
-  
-![Image](https://github.com/user-attachments/assets/9e73daa7-430a-430b-90d5-8795f5537ea8)
+
+<div align="center">
+<table>
+  <tr>
+    <th>AVM </th> 
+    <th>Normal</th> 
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/0a3f5803-fd0b-4f00-8676-31643534d25e" alt="Before" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/9e73daa7-430a-430b-90d5-8795f5537ea8" alt="After" width="300"/></td>
+  </tr>
+</table>
+
+</div>
+
+---
 
 
 It expects RGB images of size 224×224 with standard ImageNet normalization.
