@@ -33,7 +33,8 @@ A window will appear. Click the button to select a video file, and the classific
 
 The model used is `EfficientNet-B0`, fine-tuned to classify frames into:
 
-- `AVM`  
+- `AVM`
+- ![Image](https://github.com/user-attachments/assets/b2278429-c729-47ad-a12a-4adabd4ba197)
 - `Normal`  
 - `Ulcer`
 
