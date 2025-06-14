@@ -1,2 +1,2 @@
 # Medical Equipment projects
-## capsule-endoscopy-classifier
+## 1-capsule-endoscopy-classifier
