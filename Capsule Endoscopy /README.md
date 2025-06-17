@@ -7,7 +7,7 @@ A smart endoscopy system integrating real-time AI detection for gastrointestinal
 
 This project implements an intelligent endoscopic system that combines high-resolution imaging with deep learning for real-time detection and classification of gastrointestinal abnormalities, including AVMs, ulcers, and normal tissue.
 
-##Screenshots and videos showcasing the task:
+## Screenshots and videos showcasing the task:
 A sample prediction made by the program:
 <div align="center">
 <table>
