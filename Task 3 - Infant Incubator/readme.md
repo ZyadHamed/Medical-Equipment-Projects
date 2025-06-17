@@ -15,7 +15,11 @@ Internal electronics of the project's prototype:
 ![InternalStructureOfPrototype](https://github.com/user-attachments/assets/2f4ee370-ff66-4053-8279-c2d70da29d2d)
 
 The prototype working with a demonstration of tempearture control:
-https://github.com/user-attachments/assets/041ab12d-26e6-476c-b838-0a4f7b12291d
+
+
+https://github.com/user-attachments/assets/e3b8eae1-244f-4857-b288-3d099f570964
+
+
 
 
 ## Features
