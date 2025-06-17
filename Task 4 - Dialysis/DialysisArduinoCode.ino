@@ -26,7 +26,6 @@ float AnglePitch = 0;
 float AngleYaw = 0;
 uint32_t LoopTimer;
 unsigned long lastMillis;
-unsigned long gyrotime = 0;
 
 OneWire oneWire(ONE_WIRE_BUS);	
 DallasTemperature sensors(&oneWire);
@@ -224,7 +223,6 @@ void setup() {
   RateCalibrationYaw/=2000;
   LoopTimer=micros();
   lastMillis = millis();
-  gyrotime = millis();
 }
 
 void loop() {
@@ -253,24 +251,24 @@ void loop() {
     digitalWrite(BloodLeakAlarmPin,LOW);
   }
 
+  //Instant motion detected, probably detachement of blood suction mechanism.
   if(AccX >= 0.5 || AccY >= 0.5 || AccZ >= 0.5){
     motionFlag = true;
   }
 
+  //Air embolism detected through IR sensor
   if(analogRead(IRSensorPin) >= 200 && analogRead(IRSensorPin) <= 250 ){
     lcd.setCursor(0,1);
     lcd.print("Bubbles Detected!");
     digitalWrite(BubblesAlarmPin,HIGH);
-    //flag = true;
+    flag = true;
   }
   else{
     digitalWrite(BubblesAlarmPin,LOW);
     lcd.setCursor(0,1);
     lcd.print("          ");
   }
-  Serial.println(GetTemperature());
   if(flag == true){
-    Serial.println("error here!");
   TurnBloodPumpOff();
   }
   else{
@@ -281,8 +279,5 @@ void loop() {
     TurnBloodPumpOff();
     TurnDialysatePumpOff();
     digitalWrite(SuddenDisconnectionAlarmPin, HIGH);
-  }
-  if(millis() - gyrotime >= 10000){
-    motionFlag = true;
   }
 }
