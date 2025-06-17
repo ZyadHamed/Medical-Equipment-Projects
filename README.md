@@ -6,34 +6,34 @@ This repository is a collection of the medical equipment tasks we have built acr
 - Multiple filtering options
 - Heart rate calculation
 - Arduino-based implementation
-- [Detailed Documentation](./ECG_Visualizer/README.md)
+- [Detailed Documentation](https://github.com/Aya423/Medical-Equipment-Projects/tree/main/Task%201%20-%20ECG%20Sensor%20and%20Visualizer)
 
 ### 2. Infusion Pump
 - Volumetric flow control
 - Multiple safety alarms
 - Flow rate monitoring
 - Motion detection system
-- [Detailed Documentation](./Infusion_Pump/README.md)
+- [Detailed Documentation](https://github.com/Aya423/Medical-Equipment-Projects/tree/main/Task%202%20-%20Infusion%20Pump)
 
 ### 3. Infant Incubator
 - Dual temperature control system
 - Environmental monitoring
 - Safety alarm systems
 - Real-time parameter display
-- [Detailed Documentation](./Infant_Incubator/README.md)
+- [Detailed Documentation](https://github.com/Aya423/Medical-Equipment-Projects/tree/main/Task%203%20-%20Infant%20Incubator)
 
 ### 4. Hemodialysis Machine
 - Advanced safety monitoring
 - Multiple sensor integration
 - Real-time parameter tracking
 - Novel motion detection system
-- [Detailed Documentation](./Hemodialysis_Machine/README.md)
+- [Detailed Documentation](https://github.com/Aya423/Medical-Equipment-Projects/tree/main/Task%204%20-%20Dialysis)
 
 ### 5. AI-Enhanced Endoscope
 - Real-time abnormality detection
 - Deep learning integration
 - High-resolution imaging
-- [Detailed Documentation](./AI_Endoscope/README.md)
+- [Detailed Documentation](https://github.com/Aya423/Medical-Equipment-Projects/tree/main/Capsule%20Endoscopy%20)
 
 ## Common Features
 
