@@ -7,6 +7,7 @@ This repository is a collection of medical equipment tasks built across the seco
 - Heart rate calculation
 - Arduino-based implementation
 - [Detailed Documentation](./Task%201%20-%20ECG%20Sensor%20and%20Visualizer)
+![SensorSetup](https://github.com/user-attachments/assets/3b461600-ed48-42bc-bfcb-056e4e2ed569)
 
 ### 2. Infusion Pump
 - Volumetric flow control
@@ -14,6 +15,7 @@ This repository is a collection of medical equipment tasks built across the seco
 - Flow rate monitoring
 - Motion detection system
 - [Detailed Documentation](./Task%202%20-%20Infusion%20Pump)
+![Prototype](https://github.com/user-attachments/assets/2b8e7f68-53ae-418f-a84e-e737b628b433)
 
 ### 3. Infant Incubator
 - Dual temperature control system
@@ -21,6 +23,7 @@ This repository is a collection of medical equipment tasks built across the seco
 - Safety alarm systems
 - Real-time parameter display
 - [Detailed Documentation](./Task%203%20-%20Infant%20Incubator)
+![VisisbleShapeOfPrototype](https://github.com/user-attachments/assets/5b6ad20f-8be2-40f9-904c-e6429ff68702)
 
 ### 4. Hemodialysis Machine
 - Advanced safety monitoring
@@ -28,6 +31,7 @@ This repository is a collection of medical equipment tasks built across the seco
 - Real-time parameter tracking
 - Novel motion detection system
 - [Detailed Documentation](./Task%204%20-%20Dialysis)
+![HemodialysisPrototype](https://github.com/user-attachments/assets/4b6dc0bf-1f9a-4a16-9736-9d6a83214f32)
 
 ### 5. AI-Enhanced Endoscope
 - Real-time abnormality detection
@@ -35,7 +39,19 @@ This repository is a collection of medical equipment tasks built across the seco
 - High-resolution imaging
 - Automated segmentation
 - [Detailed Documentation](./Capsule%20Endoscopy)
+<div align="center">
+<table>
+  <tr>
+    <th>AVM </th> 
+    <th>Normal</th> 
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/0a3f5803-fd0b-4f00-8676-31643534d25e" alt="Before" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/9e73daa7-430a-430b-90d5-8795f5537ea8" alt="After" width="300"/></td>
+  </tr>
+</table>
 
+</div>
 ## Common Features
 
 - Arduino-based implementations
