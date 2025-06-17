@@ -6,6 +6,14 @@ A prototype hemodialysis machine with advanced safety features including motion 
 
 This project implements an intelligent safety monitoring system for hemodialysis machines, featuring multiple sensors and alarms to enhance patient safety during treatment. The system includes novel needle displacement detection using accelerometer data.
 
+## Screenshots and videos showcasing the task:
+The hemodialysis prototype:
+![HemodialysisPrototype](https://github.com/user-attachments/assets/4b6dc0bf-1f9a-4a16-9736-9d6a83214f32)
+
+The prototype working:
+
+https://github.com/user-attachments/assets/c52131c8-fcb5-4911-857f-95ac07c621d6
+
 ## Key Features
 
 - Needle displacement detection via MPU6050
