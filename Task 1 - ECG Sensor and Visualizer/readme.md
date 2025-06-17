@@ -3,7 +3,16 @@
 A real-time ECG (Electrocardiogram) visualization and analysis application built with C# and WPF, utilizing Arduino for data acquisition.
 
 ## Screenshots and videos showcasing the task:
-ECG signal displaying on the application and a demonstration of features:
+Sensor Setup:
+![SensorSetup](https://github.com/user-attachments/assets/3b461600-ed48-42bc-bfcb-056e4e2ed569)
+
+Live sensor readings:
+
+
+https://github.com/user-attachments/assets/eebedfc4-44e1-4db6-9b9d-b493417dccce
+
+
+Corrosponding ECG signal displaying on the application and a demonstration of features:
 
 
 https://github.com/user-attachments/assets/14fd8a21-9b0d-44bf-af7c-76c50629ed68
