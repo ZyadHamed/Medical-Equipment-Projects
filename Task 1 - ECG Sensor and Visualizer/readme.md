@@ -6,6 +6,10 @@ A real-time ECG (Electrocardiogram) visualization and analysis application built
 ECG signal displaying on the application and a demonstration of features:
 
 
+https://github.com/user-attachments/assets/14fd8a21-9b0d-44bf-af7c-76c50629ed68
+
+
+
 ## Features
 
 - Real-time ECG signal visualization using ScottPlot
