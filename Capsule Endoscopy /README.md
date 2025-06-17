@@ -1,39 +1,14 @@
-# AI Model to Classify videos and images (Normal . AVM , Ulcer)
-# 🧠 Video Frame Classifier
 
-This project is a simple desktop application that performs **real-time frame-by-frame classification** on videos using a deep learning model based on **EfficientNet-B0**. The model predicts one of three medical conditions from each frame: **AVM**, **Normal**, or **Ulcer**.
----
-## 🚀 Features
+# AI-Enhanced Endoscope System
 
-- Loads and plays any `.mp4`, `.avi`, or `.mov` video file.
-- Automatically classifies each frame in real time using a pretrained PyTorch model.
-- Displays the predicted label on the video as it plays.
-- Uses a circular mask on the frame to focus prediction on the central region.
----
-## 🧰 Tech Stack
+A smart endoscopy system integrating real-time AI detection for gastrointestinal abnormalities, featuring automated lesion classification and segmentation capabilities.
 
-- **Python 3**
-- **PyTorch**
-- **Torchvision**
-- **OpenCV**
-- **Tkinter** (for GUI)
----
-## 📦 Installation
+## Overview
 
-1. Clone the repository:
-2. Install the required libraries
-3. Make sure to place your trained model file (`best_model.pth`) in the root directory of the project.
----
-## 🖥️ Usage
+This project implements an intelligent endoscopic system that combines high-resolution imaging with deep learning for real-time detection and classification of gastrointestinal abnormalities, including AVMs, ulcers, and normal tissue.
 
-Run the app with:
-A window will appear. Click the button to select a video file, and the classification will begin automatically. Press `q` to quit the video.
-
-## 🧠 Model Details
-
-The model used is `EfficientNet-B0`, fine-tuned to classify frames into:
-
-
+##Screenshots and videos showcasing the task:
+A sample prediction made by the program:
 <div align="center">
 <table>
   <tr>
@@ -48,18 +23,143 @@ The model used is `EfficientNet-B0`, fine-tuned to classify frames into:
 
 </div>
 
----
+The GUI of the project and predicting a video in realtime:
 
 
-It expects RGB images of size 224×224 with standard ImageNet normalization.
+https://github.com/user-attachments/assets/1ce87879-6a1c-4ad4-bc68-24748b0d79cb
 
 
-## 📝 License
+## Key Features
 
-This project is licensed under the [MIT License](LICENSE).
+- Real-time video processing and analysis
+- AI-powered lesion detection and classification
+- Automated segmentation of abnormalities
+- High-resolution image processing
+- Interactive GUI for video analysis
+- YOLO-based segmentation annotations
 
-## 🙋‍♀️ Author
+## Technical Components
 
+### AI Model
+- EfficientNet-B0 architecture
+- Three-class classification (AVM, Normal, Ulcer)
+- Transfer learning from ImageNet
+- Early stopping implementation
+- Model checkpointing
+
+### Image Processing
+- Circular mask application
+- White background normalization
+- Real-time frame processing
+- Ellipse detection and fitting
+- YOLO format annotation generation
+
+### User Interface
+- Real-time classification display
+- Video file selection dialog
+- Live prediction visualization
+- Interactive controls
+
+## Technical Specifications
+
+### Model Architecture
+- Base: EfficientNet-B0
+- Output Classes: 3
+- Input Size: 224x224
+- Normalization: ImageNet standards
+
+### Training Parameters
+- Batch Size: 64
+- Learning Rate: 1e-4
+- Optimizer: Adam
+- Loss Function: CrossEntropy
+- Early Stopping Patience: 5
+
+### Data Processing
+- Image Resolution: 224x224
+- Data Augmentation:
+  - Horizontal Flip
+  - Random Rotation (10°)
+  - Normalization
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+### Training Mode
+```python
+python training_code.py
+```
+
+### Inference Mode
+```python
+python GUI.py
+```
+
+## Dataset Structure
+
+```
+dataset/
+├── images/
+│   ├── train/
+│   └── test/
+└── labels/
+    ├── train/
+    └── test/
+```
+
+## Model Training
+
+1. Dataset Preparation
+   - Image preprocessing
+   - Mask application
+   - Annotation generation
+
+2. Training Process
+   - Data loading and augmentation
+   - Model initialization
+   - Training loop execution
+   - Validation monitoring
+
+3. Model Evaluation
+   - Accuracy assessment
+   - Loss monitoring
+   - Early stopping implementation
+
+## Inference Pipeline
+
+1. Video Frame Capture
+2. Preprocessing
+3. AI Analysis
+4. Result Visualization
+5. Real-time Display
+
+## Performance Metrics
+
+- Training Accuracy
+- Validation Accuracy
+- Real-time Processing Speed
+- Detection Precision
+
+## Requirements
+
+- Python 3.7+
+- PyTorch
+- OpenCV
+- NumPy
+- Pandas
+- TorchVision
+- Scikit-image
+
+## Safety Notes
+
+This system is intended for research and development purposes. Clinical deployment would require additional validation and certification.
+
+## Contributors
 Made by https://github.com/Aya423
         https://github.com/ZyadHamed
         https://github.com/YoussefKottb
