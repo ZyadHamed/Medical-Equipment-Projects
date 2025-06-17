@@ -2,6 +2,10 @@
 
 A real-time ECG (Electrocardiogram) visualization and analysis application built with C# and WPF, utilizing Arduino for data acquisition.
 
+## Screenshots and videos showcasing the task:
+ECG signal displaying on the application and a demonstration of features:
+
+
 ## Features
 
 - Real-time ECG signal visualization using ScottPlot
