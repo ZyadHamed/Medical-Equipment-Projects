@@ -1,4 +1,4 @@
-# Hemodialysis Machine Safety System
+# Hemodialysis Machine
 
 A prototype hemodialysis machine with advanced safety features including motion detection, blood leak monitoring, and bubble detection systems.
 
